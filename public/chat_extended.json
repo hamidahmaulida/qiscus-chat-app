@@ -1,0 +1,156 @@
+{
+  "results": [
+    {
+      "room": {
+        "id": 12456,
+        "name": "Product A",
+        "type": "group",
+        "image_url": "https://picsum.photos/id/237/200/300",
+        "created_at": "2025-10-20T10:30:00Z",
+        "participants": [
+          {
+            "id": "admin@mail.com",
+            "name": "Admin",
+            "role": 0,
+            "status": "online"
+          },
+          {
+            "id": "agent@mail.com",
+            "name": "Agent A",
+            "role": 1,
+            "status": "online"
+          },
+          {
+            "id": "customer@mail.com",
+            "name": "King Customer",
+            "role": 2,
+            "status": "online"
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885512,
+          "type": "text",
+          "message": "Selamat malam",
+          "sender": "customer@mail.com",
+          "sender_name": "King Customer",
+          "sent_at": "2025-10-24T19:00:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885513,
+          "type": "text",
+          "message": "Malam",
+          "sender": "agent@mail.com",
+          "sender_name": "Agent A",
+          "sent_at": "2025-10-24T19:01:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885514,
+          "type": "text",
+          "message": "Ada yang bisa saya bantu?",
+          "sender": "agent@mail.com",
+          "sender_name": "Agent A",
+          "sent_at": "2025-10-24T19:02:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885515,
+          "type": "text",
+          "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+          "sender": "customer@mail.com",
+          "sender_name": "King Customer",
+          "sent_at": "2025-10-24T19:03:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885516,
+          "type": "text",
+          "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+          "sender": "agent@mail.com",
+          "sender_name": "Agent A",
+          "sent_at": "2025-10-24T19:04:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885517,
+          "type": "image",
+          "message": "Bukti Transfer Bank BCA",
+          "attachments": [
+            {
+              "id": "att_001",
+              "file_type": "image",
+              "file_name": "bukti_transfer.jpg",
+              "file_url": "https://picsum.photos/id/10/400/300",
+              "file_size": 245632,
+              "mime_type": "image/jpeg"
+            }
+          ],
+          "sender": "customer@mail.com",
+          "sender_name": "King Customer",
+          "sent_at": "2025-10-24T19:05:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885518,
+          "type": "text",
+          "message": "Terima kasih atas bukti pembayarannya. Sedang kami verifikasi",
+          "sender": "agent@mail.com",
+          "sender_name": "Agent A",
+          "sent_at": "2025-10-24T19:06:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885519,
+          "type": "pdf",
+          "message": "Invoice Pembayaran",
+          "attachments": [
+            {
+              "id": "att_002",
+              "file_type": "pdf",
+              "file_name": "INV-2025-001.pdf",
+              "file_url": "https://file-examples.com/storage/fe4b138ca268fb1bf9ba705/2017/10/file-sample_150kB.pdf",
+              "file_size": 512000,
+              "mime_type": "application/pdf"
+            }
+          ],
+          "sender": "agent@mail.com",
+          "sender_name": "Agent A",
+          "sent_at": "2025-10-24T19:07:00Z",
+          "status": "read"
+        },
+        {
+          "id": 885520,
+          "type": "video",
+          "message": "Video Tutorial Pembayaran",
+          "attachments": [
+            {
+              "id": "att_003",
+              "file_type": "video",
+              "file_name": "tutorial_pembayaran.mp4",
+              "file_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "file_size": 9216000,
+              "duration": 596,
+              "mime_type": "video/mp4"
+            }
+          ],
+          "sender": "agent@mail.com",
+          "sender_name": "Agent A",
+          "sent_at": "2025-10-24T19:08:00Z",
+          "status": "delivered"
+        },
+        {
+          "id": 885521,
+          "type": "text",
+          "message": "Terima kasih, sangat membantu!",
+          "sender": "customer@mail.com",
+          "sender_name": "King Customer",
+          "sent_at": "2025-10-24T19:09:00Z",
+          "status": "sent"
+        }
+      ]
+    }
+  ]
+}
